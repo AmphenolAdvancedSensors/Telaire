@@ -1,5 +1,5 @@
 # Telaire
-Arduino Code to communicate and measure AAS Telaire Sensors
+Arduino C++ Code to communicate and measure AAS Telaire Sensors including Carbon Dioxide (CO2), Dust (PM), and Humidity sensors.
 
 Check Branches for different sensor types.
 
