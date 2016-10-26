@@ -7,6 +7,8 @@ T9602 series, ChipCap2 parts, T6700 series, Dust Sensors.
 
 T6713, T6703, T6793, T6715
 
+v1.4 Evaluation Board now monitors low output ouly, checks to see which sensors are present, and displays only them. Dust output is a 2 minute rolling average updated every 5 seconds.
+
 NOTE: Any option with the dust sensor requires the pinchangeint library to be installed.
 https://github.com/NicoHood/PinChangeInterrupt 
 Or http://playground.arduino.cc/Main/PinChangeInt 
