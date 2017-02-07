@@ -13,4 +13,4 @@ NOTE: Any option with the dust sensor requires the pinchangeint library to be in
 https://github.com/NicoHood/PinChangeInterrupt 
 Or http://playground.arduino.cc/Main/PinChangeInt 
 
-Sometimes there are issues with the driver file of the Arduino compatible and the Arduino IDE programme will not commi=unicate with the Arduino, either it requires a CH-340 driver, or see http://eestuffs.com/2017/01/19/fix-arduino-driver-install-problem/ for a fix.
+Sometimes there are issues with the driver file of the Arduino compatible and the Arduino IDE programme will not communicate with the Arduino, either it requires a CH-340 driver, or see http://eestuffs.com/2017/01/19/fix-arduino-driver-install-problem/ for an alternative fix.
