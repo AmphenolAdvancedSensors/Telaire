@@ -3,9 +3,9 @@ Arduino C++ Code to communicate and measure AAS Telaire Sensors including Carbon
 
 Check Branches for different sensor types.
 
-T9602 series, ChipCap2 parts, T6700 series, Dust Sensors.
+T9602 series, ChipCap2 parts, T6700 series, Dust Sensors, Air Quality Sensor (VOC - Volatile Organic Compound).
 
-T6713, T6703, T6793, T6715
+T6713, T6703, T6793, T6715, VZ-89TE
 
 NOTE: Any option with the dust sensor requires the pinchangeint library to be installed.
 https://github.com/NicoHood/PinChangeInterrupt 
