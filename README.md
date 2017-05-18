@@ -1,13 +1,7 @@
 # Telaire
-Arduino C++ Code to communicate and measure AAS Telaire Sensors including Carbon Dioxide (CO2), Dust (PM), and Humidity sensors.
+Arduino C++ Code to communicate and measure AAS Telaire Sensor TZ-89TE Volatile Organic Compound Sensor (Air Quality Sensor).
 
-Check Branches for different sensor types.
+Please note thisis a 3V device, both for power and SDA/SCL voltages, using 5V will effect the calibration of the sensor.
 
-T9602 series, ChipCap2 parts, T6700 series, Dust Sensors.
 
-T6713, T6703, T6793, T6715
-
-NOTE: Any option with the dust sensor requires the pinchangeint library to be installed.
-https://github.com/NicoHood/PinChangeInterrupt 
-Or http://playground.arduino.cc/Main/PinChangeInt 
 
