@@ -1,13 +1,6 @@
-# Telaire
-Arduino C++ Code to communicate and measure AAS Telaire Sensors including Carbon Dioxide (CO2), Dust (PM), and Humidity sensors.
+# Telaire T66xx series family
+Arduino C++ Code to communicate and measure AAS Telaire Sensors including T6613, T6615, and T6617 parts.
 
-Check Branches for different sensor types.
+T6613 has I2C and UART available, as well as 0-4V analogue output. Analogue is linearly ranged as calibration, so 0V at 0ppm, and 4V at 2,000 ppm for example.
 
-T9602 series, ChipCap2 parts, T6700 series, Dust Sensors, Air Quality Sensor (VOC - Volatile Organic Compound).
-
-T6713, T6703, T6793, T6715, VZ-89TE
-
-NOTE: Any option with the dust sensor requires the pinchangeint library to be installed.
-https://github.com/NicoHood/PinChangeInterrupt 
-Or http://playground.arduino.cc/Main/PinChangeInt 
-
+T6615 and T6617 only have UART and analogue outputs. Higher range calibrations will need to be multiplied by 10 to get ppm value output as we use 16bit register for output (MSB, LSB) which normally equates to 0 to 65,536ppm maximum.
