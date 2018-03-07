@@ -1,15 +1,16 @@
 /* Connection for T6613, T6615, T6617 UART is all the same. Module can take power from Arduino.
     T66xx   Arduino
-     A       Pin 2
-     B       Pin 3
+     A       Pin 8
+     B       Pin 9
      C       +5V
      2       Ground
 */
 
 #include <SoftwareSerial.h>
 
-SoftwareSerial T66xx(8,9); // Sets up a serial port using pin 9 for Rx (A on T66xx)
-// and pin 10 for Tx (B on T66xx)
+SoftwareSerial T66xx(8,9); // (rxPin, txPin) Sets up a serial port using pin 8 for Rx (A on T66xx)
+// and pin 9 for Tx (B on T66xx)
+
 
 //Define Global Variables
 byte readCO2[] = {0xFF, 0XFE, 0X02, 0X02, 0X03}; //Command packet to read Co2 (see app note)
